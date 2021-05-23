@@ -1,0 +1,105 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta charset="utf-8"/>
+<style>
+    .a{
+        text-decoration: none;
+    }
+    .back::before{
+        text-decoration: none;
+        content: "<";
+    }
+    h1{
+        text-align: center;
+    }
+    .image{
+        border-radius: 50%;
+        margin-left: 3%;
+        width: 10%;
+    }
+    .profile{
+        display: flex;
+    }
+    .profile1{
+        padding-left: 5%;
+    }
+    .profile1 h2{
+        margin-top: 15%;
+    }
+    @media(max-width:600px){
+        h1{
+        margin-top: -5%;
+        font-size: 20px;
+        font-family: Roboto,sans-serif!important;
+        }
+        .image{
+        border-radius: 50%;
+        margin-left: 3%;
+        width: 30%;
+        height: auto;
+        } 
+        .profile1 h2 {
+        margin-top: 20%;
+        font-size: 17px;
+        font-family: Roboto,sans-serif!important;
+        }
+        .profile1 p {
+        margin-top: -7px;
+        color: grey;
+        font-family: Roboto,sans-serif!important;
+        }
+        .informaçoes {
+        margin-left: 5%;
+        margin-right: 5%;
+        }
+         .informaçoes p{
+         font-family: Roboto,sans-serif!important;  
+         }
+         .informaçoes h2 {
+         color: #7F7F7F;
+         font-weight: 400;
+         font-size: 17px;
+         font-family: Roboto,sans-serif!important;
+         }
+        }
+</style>
+</head>
+<body>
+  <a href="index.html" class="back"> 
+  </a>
+  <h1> Profile</h1>
+  <div class="profile">
+      <img  class="image" src="https://www.leadsdeconsorcio.com.br/blog/wp-content/uploads/2019/11/04-1.jpg"/>
+      <div class="profile1">
+        <h2>Mateus Mota Sales</h2>
+        <p>mateusmota@gmail.com</p>
+      </div>
+  </div>
+
+
+  <hr class="linha">
+  <div class="informaçoes">
+   <h2>General</h2>
+   <p>Edit Profile</p>
+   <hr class="linha">
+   <p>Notifications</p>
+   <hr class="linha">
+   <p>Wishilist</p>
+   <hr class="linha">
+
+   <h2>Legal</h2>
+   <p>Terms of Use</p>
+   <hr class="linha">
+   <p>Privacy Policy</p>
+   <hr class="linha">
+
+   <h2>Personal</h2>
+   <p>Report a Bug</p>
+   <hr class="linha">
+   <p>Logout</p>
+   <hr class="linha">
+  </div>
+</body>
+</html>
